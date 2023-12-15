@@ -15,7 +15,7 @@ public class ItemsManager {
     public void getWeapon(WeaponsENUM weaponName){
         weapons.getWeapon(weaponName);
     }
-    public void getItem(){
+    public void getItem(String itemName){
 
     }
 }
