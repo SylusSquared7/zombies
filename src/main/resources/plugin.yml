@@ -1,3 +1,12 @@
 name: TheBlockingDead
 version: '${project.version}'
 main: dev.sylus.theblockingdead.TheBlockingDead
+
+commands:
+  giveGun:
+    description: Gives the player a test gun
+    usage: /giveGun <args>
+
+  particleTest:
+    description: Tests the gunshot particles
+    usage: /particleTest

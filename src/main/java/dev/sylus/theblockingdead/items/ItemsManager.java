@@ -1,6 +1,7 @@
 package dev.sylus.theblockingdead.items;
 
 import dev.sylus.theblockingdead.enums.WeaponsENUM;
+import org.bukkit.entity.Item;
 import org.bukkit.inventory.ItemStack;
 
 import java.util.ArrayList;
@@ -12,8 +13,8 @@ public class ItemsManager {
         weapons = new Weapons();
     }
 
-    public void getWeapon(WeaponsENUM weaponName){
-        weapons.getWeapon(weaponName);
+    public ItemStack getWeapon(WeaponsENUM weaponName){
+       return weapons.getWeapon(weaponName);
     }
     public void getItem(String itemName){
 
